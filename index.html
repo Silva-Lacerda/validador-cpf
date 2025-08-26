@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <main id="container"> <!--Engloba toda a pagina-->
+        <div id="validator">
+            <h2>
+                Validador de CPF
+            </h2>
+
+            <div id="input_box">
+                <div class="input-field">
+                    <label for="value">CPF</label> <!--Label e Input estão conectados pelo for e id value. Ao clicar em um leva ao outro resumindo-->
+                    <input type="number" id="value">
+                </div>
+            </div>
+
+            <div id="result">
+                <h4>Resultado</h4>
+                <span id="cpf_result">
+                    CPF
+                </span>
+            </div>
+
+            <button id="validate">
+                Validar
+            </button>
+        </div>
+    </main>
+    
+</body>
+<script src="assets/js/script.js"></script>
+</html>
