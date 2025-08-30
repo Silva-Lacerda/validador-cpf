@@ -1,13 +1,12 @@
 document.getElementById('validate').addEventListener('click', function(){
+
+    //Método para transofrmar a string que vem da input em numero
     let cpfHtml = document.getElementById('value').value;
     let cpfJs = cpfHtml;
     let arrayCpfString = cpfJs.split('');
     let arrayCpfNumber = arrayCpfString.map(function(numberString){
         return Number(numberString);
     })
-
-    //cpf.push(Number(cpfHtml));
-
 
     function calcprimeiroDigito() {
         let i = 0;
